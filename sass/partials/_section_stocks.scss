@@ -1,0 +1,55 @@
+.stocks{
+	width: 100%;
+	h3{
+		margin-bottom: 75px;
+	}
+	& div:nth-child(2):before{
+		content: url('../images/birthday.png');
+		position:absolute;
+		top: 24px;
+		left: 75px;
+		z-index: 2;
+	}
+	& div:nth-child(3):before{
+		content: url('../images/GroupCorp.png');
+		position:absolute;
+		top: 47px;
+		left: 75px;
+		z-index: 2;
+	}
+	& div:nth-child(4):before{
+		content: url('../images/credit-card.png');
+		position:absolute;
+		top: 28px;
+		left: 75px;
+		z-index: 2;
+	}
+}
+.stoks_list{
+	width: 100%;
+	height: 360px;
+	background: rgba(84, 187, 185, 0.29);
+	padding-left: 350px;
+	padding-right: 65px;
+	padding-top: 43px;
+	margin-bottom: 37px;
+	box-sizing: border-box;
+	position: relative;
+	h5{
+		font-family: $fontA;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 61px;
+		text-transform: uppercase;
+		color: #F2F2F2;
+		margin-bottom: 26px;
+	}
+	p{
+		font-family: $fontM;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 29px;
+		color: #F2F2F2;
+	}
+}
